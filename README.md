@@ -206,6 +206,14 @@ requisições externas são as fontes do Google, Bricolage Grotesque e Manrope.
 
 ---
 
+## Compartilhamento e indexação
+
+- Metadados Open Graph e Twitter Card para melhorar a prévia do link ao compartilhar o site.
+- Favicon SVG com a identidade visual do projeto.
+- URL canônica para a página publicada no GitHub Pages.
+- `robots.txt` e `sitemap.xml` para orientar rastreadores.
+- Esses arquivos ajudam a descrever e descobrir o site, mas não garantem indexação nem posicionamento no Google. Para acompanhar resultados, o proprietário pode verificar o domínio no Google Search Console.
+
 ## Acessibilidade e SEO
 
 - Estrutura semântica com `<header>`, `<main>`, `<section>` e `<footer>`, e
