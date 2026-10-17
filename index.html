@@ -255,7 +255,11 @@ footer .brand{color:#fff;display:block;margin-bottom:10px}
 <div class="row in-up" style="--d:.3s"><a class="btn wa" data-msg="geral" href="https://wa.me/5511915136969">Solicitar orçamento pelo WhatsApp</a><a class="btn ghost" href="#servicos">Conhecer os serviços</a></div>
 </div>
 <div class="art in-up has-img" style="--d:.2s">
-<img src="assets/241490.jpg" alt="Edilson João instalando placa de gesso acartonado em parede com estrutura metálica" loading="eager">
+<picture>
+<source media="(max-width:640px)" srcset="assets/241490-480.webp">
+<source media="(max-width:1100px)" srcset="assets/241490-800.webp">
+<img src="assets/241490-1600.webp" alt="Edilson João instalando placa de gesso acartonado em parede com estrutura metálica" width="1204" height="1600" loading="eager" fetchpriority="high" decoding="async">
+</picture>
 <div class="yr"><b id="cnt">25</b><span>anos de experiência prática</span></div>
 </div>
 </div>
@@ -303,14 +307,26 @@ footer .brand{color:#fff;display:block;margin-bottom:10px}
 <a class="btn light wa" data-msg="especial" href="https://wa.me/5511915136969">Conversar sobre meu projeto</a>
 </div>
 <div class="art img rv" style="--d:.15s">
-<img src="assets/241491.jpg" alt="Sanca redonda em gesso executada por Edilson João, com forro modular iluminado e acabamento concluído" loading="lazy">
+<picture>
+<source media="(max-width:640px)" srcset="assets/241491-480.webp">
+<img src="assets/241491-800.webp" alt="Sanca redonda em gesso executada por Edilson João, com forro modular iluminado e acabamento concluído" width="1204" height="903" loading="lazy" decoding="async">
+</picture>
 <div class="art-cap">Sanca redonda acabada<span>Forro modular + iluminação integrada</span></div>
 </div>
 </div>
 <div class="wide has-img rv" id="wide-ph">
-<img src="assets/241490.jpg" alt="Edilson João instalando placa de gesso acartonado em parede com lã mineral" loading="lazy">
-<img src="assets/IMG-20261017-WA0142.jpg" alt="Edifício de alto padrão em São Paulo avaliado por Edilson João" loading="lazy">
-<img src="assets/IMG-20261017-WA0130.jpg" alt="Pilar e forro de gesso com trilhos de iluminação em ambiente de alto padrão" loading="lazy">
+<picture>
+<source media="(max-width:640px)" srcset="assets/241490-480.webp">
+<img src="assets/241490-800.webp" alt="Edilson João instalando placa de gesso acartonado em parede com lã mineral" width="1204" height="1600" loading="lazy" decoding="async">
+</picture>
+<picture>
+<source media="(max-width:640px)" srcset="assets/img-20261017-wa0142-480.webp">
+<img src="assets/img-20261017-wa0142-800.webp" alt="Edifício de alto padrão em São Paulo avaliado por Edilson João" width="900" height="1600" loading="lazy" decoding="async">
+</picture>
+<picture>
+<source media="(max-width:640px)" srcset="assets/img-20261017-wa0130-480.webp">
+<img src="assets/img-20261017-wa0130-800.webp" alt="Pilar e forro de gesso com trilhos de iluminação em ambiente de alto padrão" width="1204" height="1600" loading="lazy" decoding="async">
+</picture>
 </div>
 </div>
 </section>
@@ -357,7 +373,7 @@ footer .brand{color:#fff;display:block;margin-bottom:10px}
 
 <section class="ice" id="sobre" aria-labelledby="sb-t">
 <div class="wrap split">
-<div class="ph-box rv" id="about-ph"><img src="assets/IMG-20261017-WA0107.jpg" alt="Edilson João em frente a um edifício de alto padrão em São Paulo" loading="lazy"></div>
+<div class="ph-box rv" id="about-ph"><picture><source media="(max-width:640px)" srcset="assets/img-20261017-wa0107-480.webp"><img src="assets/img-20261017-wa0107-800.webp" alt="Edilson João em frente a um edifício de alto padrão em São Paulo" width="1204" height="1600" loading="lazy" decoding="async"></picture></div>
 <div class="rv" style="--d:.12s">
 <h2 id="sb-t">Experiência construída na prática.</h2>
 <p>Edilson João atua há 25 anos no mercado de gesso, drywall, estruturas metálicas e acabamentos. Sua experiência foi construída na prática, por meio da execução de diferentes tipos de obras, desde serviços residenciais até projetos de alto padrão com detalhes arquitetônicos complexos.</p>
@@ -447,20 +463,26 @@ var c=document.getElementById("cnt");
 if(!rm){var t0=null;c.textContent="0";setTimeout(function(){requestAnimationFrame(function s(t){if(!t0)t0=t;var p=Math.min((t-t0)/1400,1);c.textContent=Math.round(25*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(s)})},500)}
 /* Portfólio: para publicar fotos reais, preencha "src" (caminho da imagem) em cada item; ele passa a abrir ampliado */
 var cats=["Forros e tetos","Sancas e decoração","Estruturas curvas e redondas","Drywall e divisórias","Estruturas metálicas","Obras e ambientes","Acabamentos","Reformas e reparos"];
+/* "src" é o nome base do arquivo em assets/ (sem sufixo de tamanho). */
 var items=[
-{cats:[cats[1],cats[2],cats[6]],title:"Sanca redonda com forro modular",src:"assets/241491.jpg",alt:"Sanca redonda em gesso com forro modular iluminado e ambiente concluído"},
-{cats:[cats[2],cats[3],cats[6]],title:"Instalação de placa de drywall",src:"assets/241490.jpg",alt:"Edilson João instalando placa de gesso acartonado em parede com estrutura metálica e lã mineral"},
-{cats:[cats[1],cats[2],cats[6]],title:"Sanca curva no forro do banheiro",src:"assets/IMG-20261017-WA0122.jpg",alt:"Sanca curva em gesso com iluminação embutida no forro de um banheiro"},
-{cats:[cats[0],cats[7]],title:"Forro de gesso em dormitório",src:"assets/IMG-20261017-WA0114.jpg",alt:"Forro de gesso rebaixado em dormitório com passagem para sacada"},
-{cats:[cats[3],cats[4]],title:"Parede de drywall com estrutura metálica",src:"assets/IMG-20261017-WA0143.jpg",alt:"Estrutura metálica de parede de drywall com reforços em OSB"},
-{cats:[cats[0],cats[7]],title:"Tratamento de juntas",src:"assets/IMG-20261017-WA0137.jpg",alt:"Parede de gesso com juntas e parafusos tratados com massa"},
-{cats:[cats[1],cats[6]],title:"Forro de gesso em sala de estar",src:"assets/IMG-20261017-WA0145.jpg",alt:"Forro de gesso com iluminação embutida em sala de estar ampla"},
-{cats:[cats[0],cats[7]],title:"Forro de gesso em dormitório",src:"assets/IMG-20261017-WA0113.jpg",alt:"Forro de gesso executado em dormitório com janela ampla"},
-{cats:[cats[5],cats[4]],title:"Estrutura metálica em obra de grande porte",src:"assets/IMG-20261017-WA0130.jpg",alt:"Profissional em plataforma elevatória executando estrutura metálica em obra de grande porte"}];
+{cats:[cats[1],cats[2],cats[6]],title:"Sanca redonda com forro modular",src:"241491",max:800,alt:"Sanca redonda em gesso com forro modular iluminado e ambiente concluído"},
+{cats:[cats[2],cats[3],cats[6]],title:"Instalação de placa de drywall",src:"241490",max:1600,alt:"Edilson João instalando placa de gesso acartonado em parede com estrutura metálica e lã mineral"},
+{cats:[cats[1],cats[2],cats[6]],title:"Sanca curva no forro do banheiro",src:"img-20261017-wa0122",max:800,alt:"Sanca curva em gesso com iluminação embutida no forro de um banheiro"},
+{cats:[cats[0],cats[7]],title:"Forro de gesso em dormitório",src:"img-20261017-wa0114",max:800,alt:"Forro de gesso rebaixado em dormitório com passagem para sacada"},
+{cats:[cats[3],cats[4]],title:"Parede de drywall com estrutura metálica",src:"img-20261017-wa0143",max:800,alt:"Estrutura metálica de parede de drywall com reforços em OSB"},
+{cats:[cats[0],cats[7]],title:"Tratamento de juntas",src:"img-20261017-wa0137",max:800,alt:"Parede de gesso com juntas e parafusos tratados com massa"},
+{cats:[cats[1],cats[6]],title:"Forro de gesso em sala de estar",src:"img-20261017-wa0145",max:800,alt:"Forro de gesso com iluminação embutida em sala de estar ampla"},
+{cats:[cats[0],cats[7]],title:"Forro de gesso em dormitório",src:"img-20261017-wa0113",max:800,alt:"Forro de gesso executado em dormitório com janela ampla"},
+{cats:[cats[5],cats[4]],title:"Estrutura metálica em obra de grande porte",src:"img-20261017-wa0130",max:800,alt:"Profissional em plataforma elevatória executando estrutura metálica em obra de grande porte"}];
+/* Monta o <picture> com os tamanhos que existem para aquela foto. */
+function img(it,carregamento){var s="";
+if(it.max>=800)s+='<source media="(max-width:640px)" srcset="assets/'+it.src+'-480.webp">';
+if(it.max>=1600)s+='<source media="(max-width:1100px)" srcset="assets/'+it.src+'-800.webp">';
+return '<picture>'+s+'<img src="assets/'+it.src+'-'+it.max+'.webp" alt="'+it.alt+'" loading="'+carregamento+'" decoding="async"></picture>'}
 function art(i){var s='<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">';for(var k=1;k<=4;k++)s+='<ellipse cx="'+(150+i*30)+'" cy="'+(170-i*8)+'" rx="'+(36*k+i*10)+'" ry="'+(20*k+i*4)+'"/>';return s+'<path d="M0 230H400"/></svg>'}
 var F=document.querySelector(".filters"),G=document.querySelector(".gallery"),cur="Todos";
 function draw(){G.innerHTML="";items.forEach(function(it,i){if(cur!=="Todos"&&it.cats.indexOf(cur)<0)return;var e;
-if(it.src){e=document.createElement("button");e.type="button";e.className="pf";e.setAttribute("aria-label","Ampliar: "+it.alt);e.innerHTML='<img src="'+it.src+'" alt="'+it.alt+'" loading="lazy"><span class="pf-tag">'+it.title+'</span><span class="pf-zoom" aria-hidden="true">⤢</span>';e.onclick=function(){var l=document.getElementById("lb"),im=l.querySelector("img");im.src=it.src;im.alt=it.alt;l.showModal()}}
+if(it.src){e=document.createElement("button");e.type="button";e.className="pf";e.setAttribute("aria-label","Ampliar: "+it.alt);e.innerHTML=img(it,"lazy")+'<span class="pf-tag">'+it.title+'</span><span class="pf-zoom" aria-hidden="true">⤢</span>';e.onclick=function(){var l=document.getElementById("lb"),im=l.querySelector("img");im.src="assets/"+it.src+"-"+it.max+".webp";im.alt=it.alt;l.showModal()}}
 else{e=document.createElement("div");e.className="pf ph";e.innerHTML=art(i)+'<div class="cap"><b>'+it.title+'</b>Espaço reservado para foto real</div>'}
 G.appendChild(e)})}
 ["Todos"].concat(cats).forEach(function(n){var k=document.createElement("button");k.type="button";k.textContent=n;k.setAttribute("aria-pressed",n==="Todos");k.onclick=function(){cur=n;F.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",x===k)});draw()};F.appendChild(k)});
