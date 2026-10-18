@@ -140,7 +140,7 @@ foto de destaque. Para escolher outra, basta reordenar as linhas.
 | Topo                 | Chamada principal, botão de WhatsApp e selo de 25 anos                                            |
 | Diferenciais         | Seis pontos fortes, com o número 25 em destaque                                                   |
 | Serviços             | Oito categorias: forros, sancas, drywall, estruturas, acabamentos, reparos, isolamento e projetos |
-| Projetos especiais   | Faixa escura com foco em sancas curvas e redondas                                                 |
+| Projetos especiais   | Faixa escura com foco em sancas curvas e redondas, com foto de sanca redonda e faixa de três fotos |
 | Portfólio            | Galeria filtrável por categoria, com ampliação ao clicar                                          |
 | Parcerias            | Voltado a arquitetos, engenheiros e construtoras                                                  |
 | Como funciona        | Quatro passos do atendimento                                                                      |

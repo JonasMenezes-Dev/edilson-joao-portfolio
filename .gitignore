@@ -11,3 +11,5 @@ desktop.ini
 # Scripts de verificacao temporarios (criados durante testes)
 _*.mjs
 _*.png
+qa-*.mjs
+qa-*.png
