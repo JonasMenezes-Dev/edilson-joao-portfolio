@@ -13,3 +13,7 @@ _*.mjs
 _*.png
 qa-*.mjs
 qa-*.png
+
+# Dependências e evidências locais de verificação
+.qa/
+_assets.png
